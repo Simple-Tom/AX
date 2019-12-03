@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/* Reset Style */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: -webkit-linear-gradient(left, #000000 0%, #151515 50%, #000000 100%);
+	background-image: -o-linear-gradient(left, #000000 0%, #151515 50%, #000000 100%);
+	background-image: linear-gradient(to right, #000000 0%, #151515 50%, #000000 100%);
+	background-color: #101010;
+	font-family: 'Questrial', sans-serif;
+	color: #F8F8F8;
+}
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2rem;
+	font-weight: 80;
+	opacity: 0.2;
+}
+h1 {
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	letter-spacing: 5px;
+	margin-left: 5px;
+	opacity: 0.5;
+}
+.launch {
+	width: 100%;
+	height: auto;
+	left: 0%;
+	display: inline-block;
+	position: absolute;
+	align-content: center;
+	text-align: center;
+	top: 0%;
+}
+.groundzero {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	display: flex;
+	top: 0;
+	z-index: 0;
+	background: #0B0B0B;
+}
+.groundzero video {
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+.countdown {
+	width: 100%;
+	height: auto;
+	left: 0%;
+	display: inline-block;
+	position: absolute;
+	align-content: center;
+	text-align: center;
+	bottom: 0%;
+}
