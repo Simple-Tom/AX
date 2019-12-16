@@ -1,0 +1,147 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+/* Reset Style */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	background: #0B0B0B;
+	font-family: 'Questrial', sans-serif;
+	color: #F8F8F8;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: 100;
+	letter-spacing: 0.1rem;
+	opacity: 0;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-weight: 100;
+	letter-spacing: 0.1rem;
+	margin-top: 0.2rem;
+	opacity: 0;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-delay: 5.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+hr {
+	width: 500px;
+	max-width: 70%;
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(248,248,248,0.25);
+	border: 0 none;
+	padding: 0;
+}
+.groundzero {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	vertical-align: bottom;
+}
+.rocketperson {
+	height: auto;
+	width: auto;
+	max-width: 60%;
+	margin: auto;
+	transform: translateY(320px);
+	animation-name: rise;
+	animation-duration: 120s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.groundpeople {
+	height: auto;
+	width: auto;
+	max-width: 60%;
+	margin: auto;
+	transform: translateY(10px);
+}
+.img {
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	vertical-align: bottom;
+	opacity: 0;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.txt {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin: 0, auto;
+	background: #0B0B0B;
+	padding-bottom: 100px;
+	z-index: 10;
+	justify-content: flex-end;
+	flex-direction: column;
+	vertical-align: bottom;
+	margin-top: -8px;
+}
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes rise {
+	0% {
+		transform: translateY(318px);
+	}
+	100% {
+		transform: translateY(-2000px);
+	}
+}
+@-webkit-keyframes rise {
+	0% {
+		transform: translateY(320px);
+	}
+	100% {
+		transform: translateY(-2000px);
+	}
+}
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 6vw;
+	}
+	h2 {
+		font-size: 12vw;
+	}
+}
