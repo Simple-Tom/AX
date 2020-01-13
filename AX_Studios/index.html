@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AX - AdditiveX</title>
+		<link rel="shortcut icon" href="../Images/favicon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/Studios style.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/scale.css">
+		<link rel="stylesheet" type="text/css" href="../css/animations.css">
+  		<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<script type="text/javascript">
+			location.hash = '#groundzero'
+		</script>
+	</head>
+	<body>
+		<div class="mobile">
+			<nav>
+				<div class="mobile-logo"><a href="../"><img height="25px" width="auto" src="../Images/logo.png" alt="#"></a></div>
+				<div class="menu-icon">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><div class="gravity-menu"><a href="../Gravity/">Gravity</a></div></li>
+						<li><div class="projects-menu"><a href="../projects/">projects</a></div></li>
+						<li><div class="Services-menu"><a href="../Services/">Services</a></div></li>
+						<li><div class="education-menu"><a href="../Education/">Education</a></div></li>
+						<li><div class="contact-menu"><a href="#top">Contact</a></div></li>
+						<li><div class="ax-studios"><a href="#groundzero"><img height="15px" width="auto" src="../Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="desktop">
+			<nav>
+				<div class="menu">
+					<ul>
+						<li><div class="logo"><a href="../"><img height="15px" width="auto" src="../Images/logo.png" alt="#"></a></div></li>
+						<li><a href="#top">Contact</a></li>
+						<li><div class="ax-studios location"><a href="#groundzero"><img height="15px" width="auto" src="../Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div id="social" class="social">
+			<div class="social-container">
+				<div class="social-link">
+					<a href="https://www.instagram.com/additive.x/"><img src="../Images/Insta.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.youtube.com/channel/UCgF3Up2t3LqWlR_e1DWONrA?view_as=subscriber&fbclid=IwAR1OYBvn3-Tm0DUTa-1L0YaFqz-ThMlJlIUW2YGVnzphUGaOuWrTm1dJX2g"><img src="../Images/Youtube.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://twitter.com/additive_x"><img src="../Images/Twitter.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="#"><img src="../Images/Linkedin.svg" alt="#"></a>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form-title">
+			<h1>Contact</h1>
+		</div>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<form id="ajax-contact" method="post" action="../php/mailer.php">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="company">Company</label>
+						<input id="company" name="company" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required placeholder="Required"></textarea>
+					</div>
+					<div id="form-messages"></div>
+					<div class="submit">
+						<button class="btn-submit" type="submit" name="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="groundzero" id="groundzero" href="#groundzero">
+			<div class="inner">
+				<div class="content">
+					<div class="tagline-mobile">
+						<p>AX Studios delivers<em>&nbsp;cinematic&nbsp;</em>presentation for deserving projects.</p>
+					</div>
+					<div class="mask">
+						<div class="tagline">
+							<h2>AX Studios delivers</h2>
+							<div class="slot-txt">
+								<h2>inspiring</h2>
+								<h2>cinematic</h2>
+								<h2>engaging</h2>
+								<h2>creative</h2>
+								<h2>profound</h2>
+								<h2>inspiring</h2>
+								<h2>cinematic</h2>
+								<h2>engaging</h2>
+							</div>
+							<h2>presentation for deserving projects.</h2>
+						</div>
+					</div>
+				</div>
+				<div class="title">
+					<h1>AX Studios is inbound.</h1>
+				</div>
+				<div class="sub-title">
+					<h2>For now, enjoy our YouTube Channel:</h2>
+				</div>
+				<div class="youtube-link">
+					<a href="https://www.youtube.com/channel/UCgF3Up2t3LqWlR_e1DWONrA?view_as=subscriber&fbclid=IwAR1OYBvn3-Tm0DUTa-1L0YaFqz-ThMlJlIUW2YGVnzphUGaOuWrTm1dJX2g"><img src="../Images/Youtube.svg" alt="#"></a>
+				</div>	
+			</div>
+		</div>
+		<script src="../js/main.js"></script>
+		<script src="../js/app-studios.js"></script>
+	</body>
+</html>

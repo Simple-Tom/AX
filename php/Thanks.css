@@ -1,0 +1,72 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+/* Reset Style */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Questrial', sans-serif;
+	color: #F8F8F8;
+	background-image: -webkit-linear-gradient(left, #000000 0%, #050505 50%, #000000 100%);
+	background-image: -o-linear-gradient(left, #000000 0%, #050505 50%, #000000 100%);
+	background-image: linear-gradient(to right, #000000 0%, #050505 50%, #000000 100%);
+}
+/* Landing Page */
+
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	background-position: center;
+	top: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1 {
+	color: #F8F8F8;
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+	letter-spacing: 5px;
+	margin-left: 5px;
+}
+.content h2 {
+	color: #F8F8F8;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+	margin-left: 2px;
+	opacity: 0.4;
+}
+.Title {
+	opacity: 0;
+}
+.Sub-Title {
+	opacity: 0;
+}
+/*--- Transitions ---*/
+.fadein1 {
+	opacity: 1;
+	transition: opacity 1s;
+}

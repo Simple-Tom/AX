@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AX - Projects</title>
+		<link rel="shortcut icon" href="../Images/favicon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/Projects style.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/scale.css">
+		<link rel="stylesheet" type="text/css" href="../css/animations.css">
+  		<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script type="text/javascript">
+			location.hash = '#groundzero'
+		</script>
+	</head>
+	<body>
+		<div class="mobile">
+			<nav>
+				<div class="mobile-logo"><a href="../"><img height="25px" width="auto" src="../Images/logo.png" alt="#"></a></div>
+				<div class="menu-icon">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><div class="gravity-menu"><a href="../Gravity/">Gravity</a></div></li>
+						<li><div class="projects-menu"><a href="#groundzero">projects</a></div></li>
+						<li><div class="Services-menu"><a href="../Services/">Services</a></div></li>
+						<li><div class="education-menu"><a href="../Education/">Education</a></div></li>
+						<li><div class="contact-menu"><a href="#top">Contact</a></div></li>
+						<li><div class="ax-studios"><a href="../AX_Studios/"><img height="15px" width="auto" src="../Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="desktop">
+			<nav>
+				<div class="menu">
+					<ul>
+						<li><div class="logo"><a href="../"><img height="15px" width="auto" src="../Images/logo.png" alt="#"></a></div></li>
+						<li><a href="../Gravity/">Gravity</a></li>
+						<li><div class="location"><a href="#groundzero">projects</a></div></li>
+						<li><a href="../Services/">Services</a></li>
+						<li><a href="../Education/">Education</a></li>
+						<li><a href="#top">Contact</a></li>
+						<li><div class="ax-studios"><a href="../AX_Studios/"><img height="15px" width="auto" src="../Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div id="social" class="social">
+			<div class="social-container">
+				<div class="social-link">
+					<a href="https://www.instagram.com/additive.x/"><img src="../Images/Insta.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.youtube.com/channel/UCgF3Up2t3LqWlR_e1DWONrA?view_as=subscriber&fbclid=IwAR1OYBvn3-Tm0DUTa-1L0YaFqz-ThMlJlIUW2YGVnzphUGaOuWrTm1dJX2g"><img src="../Images/Youtube.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://twitter.com/additive_x"><img src="../Images/Twitter.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.linkedin.com/company/additiveexperimental"><img src="../Images/Linkedin.svg" alt="#"></a>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form-title">
+			<h1>Contact</h1>
+		</div>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<form id="ajax-contact" method="post" action="../php/mailer.php">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required placeholder="Required">
+					</div>
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required placeholder="Required">
+					</div>
+					<div class="field">
+						<label for="company">Company</label>
+						<input id="company" name="company" required placeholder="Required">
+					</div>
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required placeholder="Required"></textarea>
+					</div>
+					<div id="form-messages"></div>
+					<div class="submit">
+						<button class="btn-submit" type="submit" name="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<hr>
+		<div class="ignitor hem">
+			<img src="../Images/Ignitor.jpg" alt="#">
+			<div class="descriptive-txt">
+				<p>A compact instrumented test stand to quickly test different gas injector geometries for small torch ignitors.</p>
+				<br>
+				<p>Materials - SLA Resin</p>
+			</div>
+		</div>
+		<hr>
+		<div class="gravity-case hem">
+			<img src="../Images/Coin Holder.jpg" alt="#">
+			<div class="descriptive-txt">
+				<p>A slim profile challenge coin holster presented during Jet Suit pilot training at Gravity Industries.</p>
+				<br>
+				<p>Materials - SLS Nylon 12</p>
+			</div>
+		</div>
+		<hr>
+		<div class="gravity-suit hem">
+			<img src="../Images/Gravity MKIV.png" alt="#">
+			<div class="descriptive-txt">
+				<p>AX designs the fully 3D printed Jet Suit with Gravity Industries. This is optimised for metal and polymer additive manufacture.</p>
+				<br>
+				<p>Materials - AlSi10Mg, 316L Steel, Ti64, Nylon 12</p>
+			</div>
+		</div>
+		<hr>
+		<div class="groundzero" id="groundzero" href="#groundzero">
+			<img id="landing" src="../Images/Project-Landing.jpg" alt="#">
+			<div class="thisway-container">
+				<div class="left-arrow">
+					<img width="8" height="8" alt="" src="../Images/Arrowup.png" />
+				</div>
+				<div class="thisway">
+					<h2>This Way Up</h2>
+				</div>
+				<div class="right-arrow">
+					<img width="8" height="8" alt="" src="../Images/Arrowup.png" />
+				</div>
+			</div>
+		</div>
+		<script src="../js/main.js"></script>
+		<script src="../js/app-all.js"></script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AX - AdditiveX</title>
+		<link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="Thanks.css">
+		<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<script type="text/javascript">
+			//Title Fade In
+			setTimeout(function(){
+				$(document).ready(function(){
+				$('.Title').addClass('fadein1')
+			})
+			},500);
+			
+			//Nav Fade In
+			setTimeout(function(){
+				$(document).ready(function(){
+				$('.Sub-Title').addClass('fadein1')
+			})
+			},1000);
+			
+			setTimeout(function () {
+   				window.location.href = "../";
+			}, 3000);
+		</script>
+	</head>
+	<body>
+		<section id="top" class="intro">
+			<div class="inner">
+				<div class="content">
+					<div class="Title">
+						<h1>Thank You</h1>
+					</div>
+					<div class="Sub-Title">
+						<h2>You will be redirected soon</h2>
+					</div>
+					<div class="message"></div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

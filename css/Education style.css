@@ -1,0 +1,80 @@
+/*Contact Form*/
+.contact-form input:focus {
+	color: #16A7F6;
+	border: none;
+	border-bottom: 2px solid #16A7F6;
+}
+.contact-form textarea:focus {
+	color: #16A7F6;
+	border: none;
+	border-bottom: 2px solid #16A7F6;
+}
+.btn-submit:hover {
+	border: solid #16A7F6 2px;
+	background: #16A7F6;
+}
+
+/*Sections*/
+#Stem {
+	height: 80px;
+	text-align: center;
+}
+#Pro {
+	height: 80px;
+	text-align: center;
+}
+
+/* Landing Page */
+.groundzero {
+	height: 80%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	display: flex;
+	top: 0;
+	z-index: 0;
+}
+.groundzero .innerl {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	max-width: none;
+	height: auto;
+	margin-bottom: 10%;
+}
+.groundzero .innerr {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	max-width: none;
+	height: auto;
+	margin-bottom: 10%;
+}
+.content {
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1 {
+	color: #F8F8F8;
+	font-size: 150px;
+	font-weight: 400;
+	text-transform: uppercase;
+	cursor: default;
+}
+.carousel-inner {
+	width: 80%!important;
+	left: 10%!important;
+}
+
+@media screen and (max-width: 1000px) {
+	.content h1 {
+		font-size: 10vw;
+	}
+	.carousel-inner {
+		width: 100%!important;
+		left: 0%!important;
+	}
+}

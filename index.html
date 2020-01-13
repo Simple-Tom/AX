@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AX - AdditiveX</title>
+		<link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/Home style.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/scale.css">
+		<link rel="stylesheet" type="text/css" href="css/animations.css">
+  		<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		
+		<script type="text/javascript">
+			location.hash = '#groundzero'
+		</script>
+		<script type="text/javascript">
+		//In Viewport
+			$.fn.isInViewport = function() {
+				var elementTop = $(this).offset().top;
+				var elementBottom = elementTop + $(this).outerHeight();
+				var viewportTop = $(window).scrollTop();
+				var viewportBottom = viewportTop + $(window).height();
+				return elementBottom > viewportTop && elementTop < viewportBottom;
+			};
+			
+		//Gravity Animation		
+			$(window).on('resize scroll', function(){
+				if($(".gravity-marker").isInViewport()) {
+					$('.gravity').addClass('expand');
+				}
+			})
+			
+		//projects Animation		
+			$(window).on('resize scroll', function(){
+				if($(".projects-marker").isInViewport()) {
+					$('.projects').addClass('expand');
+				}
+			})
+			
+		//Services Animation		
+			$(window).on('resize scroll', function(){
+				if($(".Services-marker").isInViewport()) {
+					$('.Services').addClass('expand');
+				}
+			})
+			
+		//Education Animation		
+			$(window).on('resize scroll', function(){
+				if($(".education-marker").isInViewport()) {
+					$('.education').addClass('expand');
+				}
+			})
+		</script>
+	</head>
+	<body>
+		<div class="mobile">
+			<nav>
+				<div class="mobile-logo"><a href="#groundzero"><img height="25px" width="auto" src="Images/logo.png" alt="#"></a></div>
+				<div class="menu-icon">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><div class="gravity-menu"><a href="Gravity/">Gravity</a></div></li>
+						<li><div class="projects-menu"><a href="projects/">projects</a></div></li>
+						<li><div class="Services-menu"><a href="Services/">Services</a></div></li>
+						<li><div class="education-menu"><a href="Education/">Education</a></div></li>
+						<li><div class="contact-menu"><a href="#top">Contact</a></div></li>
+						<li><div class="ax-studios"><a href="AX_Studios/"><img height="15px" width="auto" src="Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="desktop">
+			<nav>
+				<div class="menu">
+					<ul>
+						<li><div class="logo location"><a href="#groundzero"><img height="15px" width="auto" src="Images/logo.png" alt="#"></a></div></li>
+						<li><a href="Gravity/">Gravity</a></li>
+						<li><a href="projects/">projects</a></li>
+						<li><a href="Services/">Services</a></li>
+						<li><a href="Education/">Education</a></li>
+						<li><a href="#top">Contact</a></li>
+						<li><div class="ax-studios"><a href="AX_Studios/"><img height="15px" width="auto" src="Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div id="social" class="social">
+			<div class="social-container">
+				<div class="social-link">
+					<a href="https://www.instagram.com/additive.x/"><img src="Images/Insta.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.youtube.com/channel/UCgF3Up2t3LqWlR_e1DWONrA?view_as=subscriber&fbclid=IwAR1OYBvn3-Tm0DUTa-1L0YaFqz-ThMlJlIUW2YGVnzphUGaOuWrTm1dJX2g"><img src="Images/Youtube.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://twitter.com/additive_x"><img src="Images/Twitter.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.linkedin.com/company/additiveexperimental"><img src="Images/Linkedin.svg" alt="#"></a>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form-title">
+			<h1>Contact</h1>
+		</div>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<form id="ajax-contact" method="post" action="php/mailer.php">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="company">Company</label>
+						<input id="company" name="company" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required placeholder="Required"></textarea>
+					</div>
+					<div id="form-messages"></div>
+					<div class="submit">
+						<button class="btn-submit" type="submit" name="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<hr>
+		<div class="section">
+			<div class="education">
+				<div class="left">
+					<img src="Images/Education.jpg" alt="#">
+				</div>
+				<div class="right">
+					<div class="education-logo">
+						<h1>Education</h1>
+						<div class="education-marker"></div>
+					</div>
+					<div class="descriptive-txt">
+						<p>AX presents engaging keynotes for STEM and professionals as well as hands on learning materials for increased engagement and educational fulfilment.</p>
+					</div>
+					<a href="Education/"><button class="btn" type="button">More</button></a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="section">
+			<div class="Services">
+				<div class="left">
+					<div class="Services-img">
+						<img src="Images/Services.png" alt="#">
+					</div>
+				</div>
+				<div class="right">
+					<div class="Services-logo">
+						<h1>Services</h1>
+						<div class="Services-marker"></div>
+					</div>
+					<div class="descriptive-txt">
+						<p>Advanced functional design for additive manufacture, cinematically presented.</p>
+					</div>
+					<a href="Services/"><button class="btn" type="button">More</button></a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="section">
+			<div class="projects">
+				<div class="left">
+					<div class="projects-img">
+						<img src="Images/projects.jpg" alt="#">
+					</div>
+				</div>
+				<div class="right">
+					<div class="projects-logo">
+						<h1>Projects</h1>
+						<div class="projects-marker"></div>
+					</div>
+					<div class="descriptive-txt">
+						<p>AX has delivered pioneering projects to clients worldwide, harnessing cutting edge technology.</p>
+					</div>
+					<a href="Projects/"><button class="btn" type="button">More</button></a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="section">
+			<div class="gravity">
+				<div class="left">
+					<div class="gravity-img">
+					<img src="Images/Gravity.jpg" alt="#">
+					</div>
+				</div>
+				<div class="right">
+					<div class="gravity-logo">
+						<img alt="" src="Images/gravity-logo-light.png">
+						<div class="gravity-marker"></div>
+					</div>
+					<div class="descriptive-txt">
+						<p>AX collaboratively designs the Jet Suit with Gravity, merging science fiction with reality through optimised additive design.</p>
+					</div>
+					<a href="Gravity/"><button class="btn" type="button">More</button></a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="inner">
+				<div class="content">
+					<div class="tagline-mobile">
+						<p>AX provides<em>&nbsp;operational&nbsp;</em>additive design and development for<em>&nbsp;inspiring&nbsp;</em>projects.</p>
+					</div>
+					<div class="mask">
+					<div class="tagline">
+						<h2>AX provides</h2>
+						<div class="slot-txt1">
+							<h2>operational</h2>
+							<h2>professional</h2>
+							<h2>cinematic</h2>
+							<h2>compelling</h2>
+							<h2>progressive</h2>
+							<h2>operational</h2>
+							<h2>professional</h2>
+							<h2>cinematic</h2>
+							<h2>compelling</h2>
+						</div>
+						<h2>additive design and development for</h2>
+						<div class="slot-txt2">
+							<h2>groundbreaking</h2>
+							<h2>prototyping</h2>
+							<h2>inspiring</h2>
+							<h2>aerospace</h2>
+							<h2>experimental</h2>
+							<h2>groundbreaking</h2>
+							<h2>prototyping</h2>
+							<h2>inspiring</h2>
+							<h2>aerospace</h2>
+						</div>
+						<h2>projects.</h2>
+					</div></div>
+				</div>
+			</div>
+		<hr>
+		<div class="groundzero" id="groundzero" href="#groundzero">
+			<video playsinline autoplay loop muted>
+				<source src="Videos/AX_4.mp4">
+				<source src="Videos/AX_4.Webm">
+			</video>
+			<div class="thisway-container">
+				<div class="left-arrow">
+					<img width="8" height="8" alt="" src="Images/Arrowup.png" />
+				</div>
+				<div class="thisway">
+					<h2>This Way Up</h2>
+				</div>
+				<div class="right-arrow">
+					<img width="8" height="8" alt="" src="Images/Arrowup.png" />
+				</div>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

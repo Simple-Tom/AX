@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AX - Gravity</title>
+		<link rel="shortcut icon" href="../Images/favicon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/Gravity style.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/scale.css">
+		<link rel="stylesheet" type="text/css" href="../css/animations.css">
+  		<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script type="text/javascript">
+			location.hash = '#groundzero'
+		</script>
+	</head>
+	<body>
+		<div class="mobile">
+			<nav>
+				<div class="mobile-logo"><a href="../"><img height="25px" width="auto" src="../Images/logo.png" alt="#"></a></div>
+				<div class="menu-icon">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><div class="gravity-menu"><a href="#groundzero">Gravity</a></div></li>
+						<li><div class="projects-menu"><a href="../projects/">projects</a></div></li>
+						<li><div class="Services-menu"><a href="../Services/">Services</a></div></li>
+						<li><div class="education-menu"><a href="../Education/">Education</a></div></li>
+						<li><div class="contact-menu"><a href="#top">Contact</a></div></li>
+						<li><div class="ax-studios"><a href="../AX_Studios/"><img height="15px" width="auto" src="../Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="desktop">
+			<nav>
+				<div class="menu">
+					<ul>
+						<li><div class="logo"><a href="../"><img height="15px" width="auto" src="../Images/logo.png" alt="#"></a></div></li>
+						<li><div class="location"><a href="#groundzero">Gravity</a></div></li>
+						<li><a href="../Projects/">projects</a></li>
+						<li><a href="../Services/">Services</a></li>
+						<li><a href="../Education/">Education</a></li>
+						<li><a href="#top">Contact</a></li>
+						<li><div class="ax-studios"><a href="../AX_Studios/"><img height="15px" width="auto" src="../Images/AX Studios.png" alt="#"></a></div></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div id="social" class="social">
+			<div class="social-container">
+				<div class="social-link">
+					<a href="https://www.instagram.com/additive.x/"><img src="../Images/Insta.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.youtube.com/channel/UCgF3Up2t3LqWlR_e1DWONrA?view_as=subscriber&fbclid=IwAR1OYBvn3-Tm0DUTa-1L0YaFqz-ThMlJlIUW2YGVnzphUGaOuWrTm1dJX2g"><img src="../Images/Youtube.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://twitter.com/additive_x"><img src="../Images/Twitter.svg" alt="#"></a>
+				</div>
+				<div class="social-link">
+					<a href="https://www.linkedin.com/company/additiveexperimental"><img src="../Images/Linkedin.svg" alt="#"></a>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form-title">
+			<h1>Contact</h1>
+		</div>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<form id="ajax-contact" method="post" action="../php/mailer.php">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="company">Company</label>
+						<input id="company" name="company" required placeholder="Required">
+					</div>
+
+					<div class="field">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required placeholder="Required"></textarea>
+					</div>
+					<div id="form-messages"></div>
+					<div class="submit">
+						<button class="btn-submit" type="submit" name="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<hr>
+		<div class='embed-container'><iframe src='https://player.vimeo.com/video/384290670' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+		<hr>
+		<div id="carousel-Indicators" class="carousel slide" data-ride="carousel" data-interval="false" width="80%" height="40%">
+  			<ol class="carousel-indicators">
+				<li data-target="#carousel-Indicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-Indicators" data-slide-to="1"></li>
+				<li data-target="#carousel-Indicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+			  		<img class="d-block w-100" src="../Images/Gravity MKII.png" alt="First slide">
+					<div class="carousel-caption d-none d-md-block">
+    					<h5>Mk II flight suit</h5>
+  					</div>
+				</div>
+				<div class="carousel-item">
+			  		<img class="d-block w-100 0" src="../Images/Gravity MKIII.png" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+    					<h5>Mk III flight suit</h5>
+  					</div>
+				</div>
+				<div class="carousel-item">
+			  		<img class="d-block w-100" src="../Images/Gravity MKIV.png" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+    					<h5>Mk IV flight suit</h5>
+  					</div>
+				</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carousel-Indicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carousel-Indicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+		  </a>
+		</div>
+		<hr>
+		<div class="img-grid">
+			<div class="grid-imgs">
+				<img class="img-1" alt="" src="../Images/G_P_1.jpg">
+				<img class="img-2" alt="" src="../Images/G_P_2.jpg">
+				<img class="img-3" alt="" src="../Images/G_P_3.jpg">
+				<img class="img-4" alt="" src="../Images/G_P_4.jpg">
+				<img class="img-5" alt="" src="../Images/G_P_5.jpg">
+				<img class="img-6" alt="" src="../Images/G_P_6.jpg">
+				<img class="img-7" alt="" src="../Images/G_P_7.jpg">
+				<img class="img-8" alt="" src="../Images/G_P_8.jpg">
+				<img class="img-9" alt="" src="../Images/G_P_9.jpg">
+			</div>
+		</div>
+		<div class="tagline">
+			<p>Polymer additive offers rapid and reliable fabrication for prototyping and production. AX proficiently designs for all polymer processes, utilising the optimum polymer 3D printing process for the application.</p>
+		</div>
+		<hr>
+		<div class="img-grid">
+			<div class="grid-imgs">
+				<img class="img-1" alt="" src="../Images/G_1.jpg">
+				<img class="img-2" alt="" src="../Images/G_2.jpg">
+				<img class="img-3" alt="" src="../Images/G_3.jpg">
+				<img class="img-4" alt="" src="../Images/G_4.jpg">
+				<img class="img-5" alt="" src="../Images/G_5.jpg">
+				<img class="img-6" alt="" src="../Images/G_6.jpg">
+				<img class="img-7" alt="" src="../Images/G_7.jpg">
+				<img class="img-8" alt="" src="../Images/G_8.jpg">
+				<img class="img-9" alt="" src="../Images/G_9.jpg">
+			</div>
+		</div>
+		<div class="tagline">
+			<p>Metal additive offers extreme design flexibility only fully exploited when all steps of the manufacture process chain are considered during the design stage. AX has comprehensive experience in design for metal AM and post processes.</p>
+		</div>
+		<hr>
+		<div class="tagline">
+			<p><img height="12px" alt="" src="../Images/logo.png">&nbsp;&nbsp;is working collaboratively with Gravity to design, build, and test the Gravity Jet Suit, enabling pioneering human flight.</p>
+		</div>
+		<hr>
+		<div class="groundzero" id="groundzero" href="#groundzero">
+			<div class="gravity-logo">
+				<img alt="" src="../Images/gravity-logo-light.png">
+			</div>
+			<video playsinline autoplay loop muted>
+				<source src="../Videos/gravity-web-clip-home.mp4">
+				<source src="../Videos/gravity-web-clip-home.webm">
+			</video>
+			<div class="thisway-container">
+				<div class="left-arrow">
+					<img width="8" height="8" alt="" src="../Images/Arrowup.png" />
+				</div>
+				<div class="thisway">
+					<h2>This Way Up</h2>
+				</div>
+				<div class="right-arrow">
+					<img width="8" height="8" alt="" src="../Images/Arrowup.png" />
+				</div>
+			</div>
+		</div>
+		<script src="../js/main.js"></script>
+		<script src="../js/app-all.js"></script>
+	</body>
+</html>
