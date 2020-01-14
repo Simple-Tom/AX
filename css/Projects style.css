@@ -38,20 +38,28 @@ p {
 	display: flex;
 	top: 0;
 }
-.title {
-	position: absolute;
-	margin-top: 100px;
+.Title {
+	width: auto;
+	height: auto;
 	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin: auto;
 	animation-name: fadein;
-	animation-duration: 2s;
-	animation-delay: 2s;
+	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
-	animation-iteration-count: 1;
+	animation-duration: 1.5s;
+	z-index: 50;
+	align-content: center;
+	text-align: center;
 }
-.title h2 {
+.Title h2 {
 	font-size: 30px;
 	font-weight: 200;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 #landing {
 	height: 80%;
