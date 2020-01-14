@@ -60,6 +60,8 @@ p {
 	font-size: 30px;
 	font-weight: 200;
 	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-left: 5px;
 }
 #landing {
 	height: 80%;
