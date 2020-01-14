@@ -33,6 +33,7 @@ p {
 	overflow: hidden;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	margin: auto;
 	display: flex;
 	top: 0;
@@ -50,7 +51,7 @@ p {
 .title h2 {
 	font-size: 30px;
 	font-weight: 200;
-	text-transform: none;
+	text-transform: uppercase;
 }
 #landing {
 	height: 80%;
