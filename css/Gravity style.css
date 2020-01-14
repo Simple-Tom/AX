@@ -53,17 +53,6 @@ p {
 	display: flex;
 	top: 0;
 }
-.collab img {
-	position: relative;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-	display: flex;
-	width: 300px;
-	max-width: 60%;
-	padding-bottom: 40px;
-	padding-top: 100px;
-}
 /* Landing Page */
 .groundzero {
 	height: 100%;
