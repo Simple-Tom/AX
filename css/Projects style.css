@@ -38,6 +38,7 @@ p {
 	top: 0;
 }
 .title {
+	position: absolute;
 	margin-top: 100px;
 	opacity: 0;
 	animation-name: fadein;
