@@ -135,7 +135,7 @@ em {
 }
 
 /* Landing Page */
-.groundzero {
+.home {
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -147,7 +147,7 @@ em {
 	top: 0;
 	z-index: 0;
 }
-.groundzero video {
+.home video {
 	width: 100%;
 	height: auto;
 	z-index: 0;
@@ -184,7 +184,7 @@ em {
 	.tagline-mobile h2 {
 		font-size: 20px;
 	}
-	.groundzero video {
+	.home video {
 		width: 140vw;
 	}
 	
