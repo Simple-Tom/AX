@@ -26,7 +26,7 @@ h1 {
 p {
 	text-align: center!important;
 }
-.groundzero {
+.home {
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -73,7 +73,7 @@ p {
 	display: flex;
 }
 @media screen and (max-width: 1400px) {
-	.groundzero {
+	.home {
 		height: auto;
 	}
 	.section {
