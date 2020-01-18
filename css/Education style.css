@@ -25,7 +25,7 @@
 }
 
 /* Landing Page */
-.groundzero {
+.home {
 	height: 80%;
 	width: 100%;
 	position: relative;
@@ -37,7 +37,7 @@
 	top: 0;
 	z-index: 0;
 }
-.groundzero .innerl {
+.home .innerl {
 	display: table-cell;
 	vertical-align: middle;
 	width: 50%;
@@ -45,7 +45,7 @@
 	height: auto;
 	margin-bottom: 10%;
 }
-.groundzero .innerr {
+.home .innerr {
 	display: table-cell;
 	vertical-align: middle;
 	width: 50%;
