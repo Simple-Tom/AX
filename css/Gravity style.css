@@ -54,7 +54,7 @@ p {
 	top: 0;
 }
 /* Landing Page */
-.groundzero {
+.home {
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -65,7 +65,7 @@ p {
 	display: flex;
 	top: 0;
 }
-.groundzero video {
+.home video {
 	width: auto;
 	height: 80%;
 	z-index: 0;
