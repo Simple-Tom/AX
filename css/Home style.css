@@ -106,6 +106,9 @@ em {
 	animation-name: slot;
 	animation-duration: 15s;
 	animation-iteration-count: infinite;
+	-webkit-animation-name: slot;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-iteration-count: infinite;
 }
 .slot-txt2 {
 	margin: 0px 15px;
@@ -116,6 +119,10 @@ em {
 	animation-duration: 15s;
 	animation-delay: 1.5s;
 	animation-iteration-count: infinite;
+	-webkit-animation-name: slot;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-iteration-count: infinite;
 }
 .slot-txt1 h2 {
 	color: #16A7F6;
