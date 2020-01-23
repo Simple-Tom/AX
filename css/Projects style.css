@@ -69,7 +69,9 @@ p {
 }
 .hem img {
 	width: 80%;
-	margin-left: 10%;
+}
+.hem {
+	text-align: center;
 }
 @media screen and (max-width: 1400px) {
 	.hem img {
