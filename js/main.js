@@ -16,9 +16,7 @@
 					$("nav ul").toggleClass("showing");
 					$(".hamburger, .hamburger--collapse").toggleClass("is-active");
 				})
-			})
-
-			
+			})	
 //Smooth Scroll
 			setTimeout(function(){
 				$(document).ready(function(){
