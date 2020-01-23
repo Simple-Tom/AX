@@ -756,11 +756,11 @@ textarea {
 	z-index: 500;
 }
 .thisway h2 {
-	font-size: 60%;
+	font-size: 80%;
 	text-transform: uppercase;
 	font-weight: lighter;
-	letter-spacing: 20px;
-	margin-left: 20px;
+	letter-spacing: 15px;
+	margin-left: 15px;
 	padding: 0px 40px;
 }
 .left-arrow {
