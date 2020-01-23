@@ -82,10 +82,14 @@ p {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	margin: auto;
-	animation-name: logo;
+	animation-name: fadein;
 	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
-	animation-duration: 1.5s;
+	animation-duration: 2s;
+	-webkit-animation-name: fadein;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-duration: 2s;
 	z-index: 50;
 	align-content: center;
 	text-align: center;

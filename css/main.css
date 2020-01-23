@@ -758,9 +758,13 @@ textarea {
 	animation-duration: 2s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-fill-mode: forwards;
 }
 .thisway h2 {
-	font-size: 80%;
+	font-size: 75%;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 15px;
@@ -776,6 +780,10 @@ textarea {
 	animation-delay: 2.8s;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
+	-webkit-animation-name: scroll;
+	-webkit-animation-delay: 2.8s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
 }
 .right-arrow {
 	opacity: 0;
@@ -786,6 +794,10 @@ textarea {
 	animation-delay: 2.8s;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
+	-webkit-animation-name: scroll;
+	-webkit-animation-delay: 2.8s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
 }
 footer {
 	margin: 0;
