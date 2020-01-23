@@ -23,13 +23,6 @@
 				return elementBottom > viewportTop && elementTop < viewportBottom;
 			};
 			
-		//Gravity Animation		
-			$(window).on('resize scroll', function(){
-				if($(".gravity-marker").isInViewport()) {
-					$('.gravity').addClass('expand');
-				}
-			})
-			
 		//projects Animation		
 			$(window).on('resize scroll', function(){
 				if($(".projects-marker").isInViewport()) {
