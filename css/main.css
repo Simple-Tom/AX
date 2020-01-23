@@ -754,6 +754,10 @@ textarea {
 	opacity: 0;
 	color: #F8F8F8;
 	z-index: 500;
+	animation-name: fadein;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
 }
 .thisway h2 {
 	font-size: 80%;

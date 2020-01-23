@@ -18,12 +18,6 @@
 				})
 			})
 
-//This Way Up Fade In
-			setTimeout(function(){
-				$(document).ready(function(){
-				$('.thisway').addClass('fadein2')
-			})
-			},2000);
 			
 //Smooth Scroll
 			setTimeout(function(){

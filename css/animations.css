@@ -7,65 +7,13 @@
 	100% {opacity: 0;
 	transform: translate3d(0, -5px, 0)}
 }
-@keyframes scroll{
+@keyframes scroll {
 	0% {opacity: 0;
 	transform: translate3d(0, 10px, 0)
 	}
 	50% {opacity: 1;}
 	100% {opacity: 0;
 	transform: translate3d(0, -5px, 0)}
-}
-/*Gravity Logo Animation*/
-/*@-webkit-keyframes base {
-	0% { 
-		opacity: 0;
-	}
-	50% {
-		opacity: 1;
-		transform: translate3d(-50%, -50%, 0)
-	}
-	100% {
-		opacity: 0;
-		transform: translate3d(-50%, 0, 0)
-	}
-}
-@-webkit-keyframes a {
-	0% {
-		opacity: 0;
-		transform: translate3d(-50%, -50%, 0)
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 1;
-	}
-}*/
-@-webkit-keyframes logo {
-	0% { 
-		opacity: 0;		
-	}
-	50% {
-		opacity: 0;
-		transform: translate3d(-50%, -100%, 0)
-	}
-	100% {
-		opacity: 1;
-		transform: translate3d(-50%, -50%, 0)
-	}
-}
-@keyframes logo {
-	0% { 
-		opacity: 0;		
-	}
-	50% {
-		opacity: 0;
-		transform: translate3d(-50%, -100%, 0)
-	}
-	100% {
-		opacity: 1;
-		transform: translate3d(-50%, -50%, 0)
-	}
 }
 /*Tagline Animation*/
 @-webkit-keyframes slot {
