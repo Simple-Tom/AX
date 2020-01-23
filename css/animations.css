@@ -110,6 +110,14 @@
 	}
 }
 /*--- Transitions ---*/
+.fadein1 {
+	opacity: 1;
+	transition: opacity 1s;
+}
+.fadein2 {
+	opacity: 1;
+	transition: opacity 2s;
+}
 .expand {
 	opacity: 1;
 	transition: 1.5s;
@@ -117,4 +125,14 @@
 }
 .smooth {
 	scroll-behavior: smooth;
+}
+.showing {
+	max-height: 100%;
+	opacity: 1;
+	transition: 0.5s;
+}
+.hide {
+	height: 0;
+	width: 0;
+	opacity: 0;
 }
