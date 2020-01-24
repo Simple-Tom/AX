@@ -77,6 +77,12 @@ p {
 .hem {
 	text-align: center;
 }
+.hem p img {
+	width: auto;
+	height: 12px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
 @media screen and (max-width: 1400px) {
 	.hem img {
 		width: 100%;
