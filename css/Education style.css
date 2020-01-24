@@ -74,6 +74,12 @@
 	height: 80%;
 	width: auto;
 }
+.btn-pro {
+	margin-right: 20px;
+}
+.btn-stem {
+	margin-left: 20px;
+}
 @media screen and (max-width: 1000px) {
 	.content h1 {
 		font-size: 10vw;
