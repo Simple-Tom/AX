@@ -60,6 +60,12 @@ p {
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
+.card p img {
+	width: auto;
+	height: 12px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
 .Service p {
 	max-width: 80%;
 	text-align: center;
@@ -72,6 +78,7 @@ p {
 .desktop {
 	display: flex;
 }
+
 @media screen and (max-width: 1400px) {
 	.home {
 		height: auto;
