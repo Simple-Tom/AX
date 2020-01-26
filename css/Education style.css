@@ -94,7 +94,13 @@
 }
 @media screen and (max-width: 800px) {
 	.content {
-		bottom: 5%;
+		bottom: 0%;
 		width: 90%;
+	}
+	.btn-pro {
+		margin-bottom: 0px!important;
+	}
+	.btn-stem {
+		margin-bottom: 0px!important;
 	}
 }
