@@ -83,6 +83,12 @@ p {
 	padding-bottom: 0;
 	padding-top: 0;
 }
+.no-interact:hover {
+	color: #F8F8F8!important;
+	border: solid #F8F8F8 2px!important;
+	background: rgba(0, 0, 0, 0)!important;
+	cursor: pointer!important;
+}
 @media screen and (max-width: 1400px) {
 	.hem img {
 		width: 100%;
