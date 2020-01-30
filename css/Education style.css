@@ -95,6 +95,10 @@
 		width: 100%!important;
 		left: 0%!important;
 	}
+	.descriptive-txt {
+		width: 90%!important;
+		margin-left: 5%!important;
+	}
 }
 @media screen and (max-width: 800px) {
 	.content {
