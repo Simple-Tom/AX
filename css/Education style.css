@@ -81,7 +81,8 @@
 	margin-left: 20px;
 }
 .descriptive-txt {
-	width: 800px!important;
+	width: 50%!important;
+	margin-left: 25%!important;
 }
 @media screen and (max-width: 1000px) {
 	.content h1 {
