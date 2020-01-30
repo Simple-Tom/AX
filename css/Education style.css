@@ -80,6 +80,9 @@
 .btn-stem {
 	margin-left: 20px;
 }
+.descriptive-txt {
+	width: 800px!important;
+}
 @media screen and (max-width: 1000px) {
 	.content h1 {
 		font-size: 10vw;
