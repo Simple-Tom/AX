@@ -87,6 +87,14 @@
 .education .left img {
 	max-width: 300px;
 }
+.education .left {
+	Float: right;
+	Align-content: right;
+}
+.education .right {
+	Float: left;
+	Align-content: right;
+}
 .section .education {
 	width: 60%;
 	margin-left: 20%;
