@@ -87,6 +87,17 @@
 .education .left img {
 	max-width: 300px;
 }
+.section .education {
+	width: 60%;
+	margin-left: 20%;
+}
+.education .right p {
+	text-align: left;
+}
+.education .right .descriptive-txt {
+	width: 100%;
+}
+
 @media screen and (max-width: 1000px) {
 	.content h1 {
 		font-size: 10vw;
