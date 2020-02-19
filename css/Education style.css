@@ -88,12 +88,10 @@
 	max-width: 300px;
 }
 .education .left {
-	Float: right;
 	Align-content: right;
 }
 .education .right {
-	Float: left;
-	Align-content: right;
+	Align-content: left;
 }
 .section .education {
 	width: 60%;
@@ -103,9 +101,16 @@
 	text-align: left;
 }
 .education .right .descriptive-txt {
-	width: 100%;
+	width: 60%!important;
+	margin-left: 5%!important;
 }
 
+@media screen and (max-width: 1400px) {
+	.education .right .descriptive-txt {
+		width: 120%!important;
+		margin-left: 5%!important;
+	}
+}
 @media screen and (max-width: 1000px) {
 	.content h1 {
 		font-size: 10vw;
@@ -121,6 +126,10 @@
 		width: 90%!important;
 		margin-left: 5%!important;
 	}
+	.education .right .descriptive-txt {
+		width: 130%!important;
+		margin-left: 10%!important;
+	}
 }
 @media screen and (max-width: 800px) {
 	.content {
@@ -132,5 +141,16 @@
 	}
 	.btn-stem {
 		margin-bottom: 0px!important;
+	}
+	.education .right .descriptive-txt {
+		width: 150%!important;
+		margin-left: -25%!important;
+	}
+	.descriptive-txt {
+		width: 150%!important;
+		margin-left: -25%!important;
+	}
+	.education .right p {
+		text-align: center;
 	}
 }
