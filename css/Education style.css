@@ -86,29 +86,29 @@
 }
 .education .left img {
 	max-width: 300px;
+	margin-right: 30px!important;
 }
 .education .left {
 	Align-content: right;
+	width: auto!important;
+	text-align: right;
 }
 .education .right {
-	Align-content: left;
+	Align-content: left!important;
+	text-align: left;
 }
 .section .education {
 	width: 60%;
 	margin-left: 20%;
 }
-.education .right p {
-	text-align: left;
-}
 .education .right .descriptive-txt {
 	width: 60%!important;
-	margin-left: 5%!important;
+	margin-left: 20px!important;
 }
 
 @media screen and (max-width: 1400px) {
 	.education .right .descriptive-txt {
 		width: 120%!important;
-		margin-left: 5%!important;
 	}
 }
 @media screen and (max-width: 1000px) {
@@ -128,7 +128,7 @@
 	}
 	.education .right .descriptive-txt {
 		width: 130%!important;
-		margin-left: 10%!important;
+		margin-left: 20px!important;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -150,7 +150,14 @@
 		width: 150%!important;
 		margin-left: -25%!important;
 	}
-	.education .right p {
+	.education .left img {
+		max-width: 300px;
+		margin-right: 0px!important;
+	}
+	.education .left {
+		text-align: center;
+	}
+	.education .right {
 		text-align: center;
 	}
 }
