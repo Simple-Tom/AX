@@ -51,6 +51,7 @@
 	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 	animation-duration: 1.5s;
+	animation-iteration-count: 1;
 	-webkit-animation-name: fadein;
 	-webkit-animation-delay: 0.5s;
 	-webkit-animation-fill-mode: forwards;
