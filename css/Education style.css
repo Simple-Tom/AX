@@ -56,6 +56,7 @@
 	-webkit-animation-delay: 0.5s;
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
 	z-index: 50;
 	align-content: center;
 	text-align: center;
