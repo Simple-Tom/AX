@@ -147,18 +147,18 @@ em {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	align-items: center;
 	justify-content: center;
+	vertical-align: bottom;
 	margin: auto;
 	display: flex;
-	top: 0;
 	z-index: 0;
 }
 .home video {
 	width: 100%;
 	height: auto;
 	z-index: 0;
-	bottom: 20px;
+	position: absolute;
+	top: 130px;
 }
 
 /*--- Media Queries --*/
@@ -193,6 +193,8 @@ em {
 	}
 	.home video {
 		width: 140vw;
+		position: relative;
+		top: 0px;
 	}
 	
 }

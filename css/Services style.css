@@ -101,4 +101,8 @@ p {
 	.desktop {
 		display: none;
 	}
+	.thisway-container {
+		top: auto!important;
+		bottom: 20px!important;
+	}
 }

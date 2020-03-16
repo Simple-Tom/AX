@@ -70,6 +70,8 @@ p {
 #landing {
 	height: 80%;
 	width: auto;
+	position: absolute;
+	top: 150px!important;
 }
 .hem img {
 	width: 80%;
@@ -106,5 +108,7 @@ p {
 	#landing {
 		height: auto;
 		width: 100%;
+		position: relative;
+		top: 0!important;
 	}
 }
