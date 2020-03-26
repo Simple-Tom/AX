@@ -198,7 +198,7 @@ em {
 	}
 	
 }
-@media (-webkit-device-pixel-ratio: 1.25) {
+@media (-webkit-device-pixel-ratio: 0.5625) {
 	.home video {
 		width: 140vw;
 		position: relative;
