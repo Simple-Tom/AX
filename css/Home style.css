@@ -225,6 +225,9 @@ em {
 	}
 }
 @media screen and (device-aspect-ratio: 9/16) {
+	h1 {
+		color: aliceblue;
+	}
 	.home video {
 		width: 140vw!important;
 		position: relative!important;
