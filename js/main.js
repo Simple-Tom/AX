@@ -24,10 +24,3 @@
 			})
 			},500);
 
-//Display thing
-			setTimeout(function(){
-				$(document).ready(function(){
-				$('html').addClass('live')
-			})
-			},400);
-
