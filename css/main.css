@@ -14,7 +14,6 @@ html, body {
 	animation-delay: 0.1s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
-	display: none;
 }
 body {
 	background-image: -webkit-linear-gradient(left, #000000 0%, #151515 50%, #000000 100%);
