@@ -126,6 +126,9 @@
 .smooth {
 	scroll-behavior: smooth;
 }
+.live {
+	opacity: 1;
+}
 .showing {
 	max-height: 100%;
 	opacity: 1;
