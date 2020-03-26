@@ -225,12 +225,9 @@ em {
 	}
 }
 @media screen and (min-aspect-ratio: 9/16) {
-	h1 {
-		color: red;
-	}
 	.home video {
-		width: 140vw!important;
-		position: relative!important;
-		top: 0px!important;
+		width: 140vw;
+		position: relative;
+		top: 0px;
 	}
 }
