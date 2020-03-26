@@ -224,7 +224,7 @@ em {
 		margin-left: 10%;
 	}
 }
-@media screen and (max-aspect-ratio: 9/16) {
+@media screen and (max-aspect-ratio: 10/16) {
 	.home video {
 		width: 140vw;
 		position: relative;
