@@ -15,15 +15,64 @@
 }
 
 /*Sections*/
-#Stem {
-	height: 80px;
-	text-align: center;
+.edu-tiles img {
+	width: 100%;
+	height: auto;
 }
-#Pro {
-	height: 80px;
-	text-align: center;
+.services-section {
+    width: 90%;
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0;
+    margin-left: 5%;
+    list-style: none;
+    align-items: stretch;
+    -ms-flex-item-align: stretch;
 }
-
+.Service-1 {
+    width: 20%;
+    border: solid rgba(248,248,248,0.08) 1px;
+	border-radius: 3px;
+}
+.Service-2 {
+    width: 20%;
+    border: solid rgba(248,248,248,0.08) 1px;
+	border-radius: 3px;
+}
+.Service-3 {
+    width: 40%;
+    border: solid rgba(248,248,248,0.08) 1px;
+	border-radius: 3px;
+}
+.Service-4 {
+	width: 90%;
+	margin-left: 5%;
+    border: solid rgba(248,248,248,0.08) 1px;
+	border-radius: 3px;
+}
+.card p img {
+	width: auto;
+	height: 12px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.card p {
+	max-width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.card h1 {
+	font-size: 30px!important;
+	max-width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.service-txt {
+	width: 80%!important;
+	margin-left:10%!important;
+	padding-bottom: 20px;
+}
 /* Landing Page */
 .home {
 	height: 100%;
@@ -114,6 +163,35 @@
 	.education .right .descriptive-txt {
 		width: 120%!important;
 	}
+	.services-section {
+		width: 90%;
+		justify-content: space-between;
+		margin-left: 5%;
+	}
+	.Service-1 {
+		width: 47.5%;
+	}
+	.Service-2 {
+		width: 47.5%;
+	}
+	.edu-tiles img {
+		width: 100%;
+	}
+	.card p {
+		font-size: 12px;
+		margin-top: -10px;
+	}
+	.card h1 {
+		font-size: 23px;
+	}
+	.card p img {
+		height: 10px;
+	}
+	.service-txt {
+		width: 90%!important;
+		margin-left: 5%!important;
+		padding-bottom: 15px;
+	}
 }
 @media screen and (max-width: 1000px) {
 	.content h1 {
@@ -137,7 +215,7 @@
 }
 @media screen and (max-width: 800px) {
 	.content {
-		bottom: 0%;
+		bottom: -100px;
 		width: 90%;
 	}
 	.btn-pro {
