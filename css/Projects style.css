@@ -59,6 +59,7 @@ p {
 	z-index: 50;
 	align-content: center;
 	text-align: center;
+	margin-top: 60px!important;
 }
 .Title h2 {
 	font-size: 40px;
@@ -110,5 +111,8 @@ p {
 		width: 100%;
 		position: relative;
 		top: 0!important;
+	}
+	.Title {
+		margin-top: 0px!important;
 	}
 }
